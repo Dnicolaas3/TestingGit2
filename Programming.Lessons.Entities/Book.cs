@@ -1,4 +1,5 @@
-﻿namespace Programming.Lessons.Entities
+﻿
+namespace Programming.Lessons.Entities
 {
     public class Book
     {
@@ -11,5 +12,6 @@
         public long ISBN { get; set; }
         public int PublicationYear { get; set; }
         public string Language  { get; set;}
+
+        }
     }
-}
