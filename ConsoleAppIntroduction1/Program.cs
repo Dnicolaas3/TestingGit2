@@ -114,6 +114,7 @@ var book5 = new Book()
     SecondaryColor = Color.Black,
 
 };
+
 var book6 = new Book()
 {
     Title = "El Codigo Da vinci",
@@ -135,6 +136,28 @@ var book6 = new Book()
 
 };
 
+var book7 = new Book()
+{
+    Title = "the 4 hour work week",
+    Author = new Author()
+    {
+        FirstName = "Tim",
+        LastName = "Ferris",
+        Age = 40,
+        Gender = "Male"
+    },
+    ISBN = 9780091929114,
+    Owner = new Owner()
+    {
+        FirstName = "Isabella",
+        LastName = "Torrente"
+    },
+    Pages = 250,
+    PrimaryColor = Color.Red,
+    SecondaryColor = Color.Orange,
+
+};
+
 
 
 Console.WriteLine($"The author of the Book {book1.Title} is {book1.Author.FirstName} {book1.Author.LastName} and the color of this book is: {book1.PrimaryColor} and {book1.SecondaryColor}. This book has {book1.Pages} Pages, Language:{book1.Language} with ISBN:{book1.ISBN} and is now owned by {book1.Owner.FirstName} {book1.Owner.LastName} ");
@@ -143,3 +166,4 @@ Console.WriteLine($"The author of the Book {book3.Title} is {book3.Author.FirstN
 Console.WriteLine($"The author of the Book {book4.Title} is {book4.Author.FirstName}");
 Console.WriteLine($"The author of the Book {book5.Title} is {book5.Author.FirstName} {book5.Author.LastName}");
 Console.WriteLine($"The author of the Book {book6.Title} is {book6.Author.FirstName} {book6.Author.LastName}");
+Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender}");
