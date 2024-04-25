@@ -153,8 +153,9 @@ var book7 = new Book()
         LastName = "Torrente"
     },
     Pages = 250,
-    PrimaryColor = Color.Red,
-    SecondaryColor = Color.Orange,
+    PrimaryColor = Color.Pink,
+    SecondaryColor = Color.Beige,
+    AudioBookAvailable = true
 
 };
 
@@ -166,4 +167,4 @@ Console.WriteLine($"The author of the Book {book3.Title} is {book3.Author.FirstN
 Console.WriteLine($"The author of the Book {book4.Title} is {book4.Author.FirstName}");
 Console.WriteLine($"The author of the Book {book5.Title} is {book5.Author.FirstName} {book5.Author.LastName}");
 Console.WriteLine($"The author of the Book {book6.Title} is {book6.Author.FirstName} {book6.Author.LastName}");
-Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender}");
+Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender} and it is an AudioBook: {book7.AudioBookAvailable}");

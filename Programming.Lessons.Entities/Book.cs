@@ -13,5 +13,7 @@ namespace Programming.Lessons.Entities
         public int PublicationYear { get; set; }
         public string Language  { get; set;}
 
+        public bool AudioBookAvailable { get; set; }
+
         }
     }
