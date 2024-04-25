@@ -165,7 +165,7 @@ var book7 = new Book()
 Console.WriteLine($"The author of the Book {book1.Title} is {book1.Author.FirstName} {book1.Author.LastName} and the color of this book is: {book1.PrimaryColor} and {book1.SecondaryColor}. This book has {book1.Pages} Pages, Language:{book1.Language} with ISBN:{book1.ISBN} and is now owned by {book1.Owner.FirstName} {book1.Owner.LastName} ");
 Console.WriteLine($"The author of the Book {book2.Title} is {book2.Author.FirstName} {book2.Author.LastName} and the color of this book is: {book2.PrimaryColor} and {book2.SecondaryColor}. This book has {book2.Pages} Pages,  with ISBN:{book2.ISBN} and is now owned by {book2.Owner.FirstName} {book2.Owner.LastName} ");
 Console.WriteLine($"The author of the Book {book3.Title} is {book3.Author.FirstName} {book3.Author.LastName} and the color of this book is: {book3.PrimaryColor} and {book3.SecondaryColor}. This book has {book3.Pages} Pages,  with ISBN:{book3.ISBN} and is now owned by {book3.Owner.FirstName} {book3.Owner.LastName} ");
-Console.WriteLine($"The author of the Book {book4.Title} is {book4.Author.FirstName}");
+Console.WriteLine($"The author of the Book {book4.Title} is {book4.Author.FirstName} {book4.Author.LastName}");
 Console.WriteLine($"The author of the Book {book5.Title} is {book5.Author.FirstName} {book5.Author.LastName}");
 Console.WriteLine($"The author of the Book {book6.Title} is {book6.Author.FirstName} {book6.Author.LastName}");
 Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender} and it is an AudioBook: {book7.AudioBookAvailable} with Genre {book7.BookGenre}");
