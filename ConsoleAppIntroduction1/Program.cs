@@ -155,9 +155,13 @@ var book7 = new Book()
     Pages = 250,
     PrimaryColor = Color.Pink,
     SecondaryColor = Color.Beige,
+    AudioBookAvailable = true,
+    BookInfo = new BookInfo()
+    {
+        Summary = "The 4-Hour Workweek: Escape 9-5, Live Anywhere, and Join the New Rich is a self-help book by Timothy Ferriss, an American writer, educational activist, and entrepreneur. The book has spent more than four years on The New York Times Best Seller List, has been translated into 35 languages and has sold more than 1,350,000 copies worldwide. It deals with what Ferriss refers to as \"lifestyle design\" and repudiates the traditional \"deferred\" life plan in which people work grueling hours and take few vacations for decades and save money in order to relax after retirement."
+    
+    }
     BookGenre = Genre.Action,
-    AudioBookAvailable = true
-
 };
 
 
@@ -168,4 +172,6 @@ Console.WriteLine($"The author of the Book {book3.Title} is {book3.Author.FirstN
 Console.WriteLine($"The author of the Book {book4.Title} is {book4.Author.FirstName} {book4.Author.LastName}");
 Console.WriteLine($"The author of the Book {book5.Title} is {book5.Author.FirstName} {book5.Author.LastName}");
 Console.WriteLine($"The author of the Book {book6.Title} is {book6.Author.FirstName} {book6.Author.LastName}");
-Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender} and it is an AudioBook: {book7.AudioBookAvailable} with Genre {book7.BookGenre}");
+Console.WriteLine($"The author of the Book {book7.Title} is a {book7.Author.Gender} and it is an AudioBook: {book7.AudioBookAvailable} with Genre {book7.BookGenre}. Summary: {book7.BookInfo.Summary}");
+
+

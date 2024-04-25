@@ -12,9 +12,9 @@ namespace Programming.Lessons.Entities
         public long ISBN { get; set; }
         public int PublicationYear { get; set; }
         public string Language  { get; set;}
-
         public Genre BookGenre { get; set; }
         public bool AudioBookAvailable { get; set; }
+        public BookInfo BookInfo { get; set; }
 
         }
     }
