@@ -12,6 +12,8 @@
         White,
         Grey,
         Gold,
-        DarkGreen
+        DarkGreen,
+        Pink,
+        Beige
     }
 }
