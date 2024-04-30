@@ -157,7 +157,7 @@ var book7 = new Book()
         LastName = "Torrente"
     },
     Pages = 250,
-    PrimaryColor = Color.Pink,
+    PrimaryColor = Color.Brown,
     SecondaryColor = Color.Beige,
     AudioBookAvailable = true,
     BookInfo = new BookInfo()
