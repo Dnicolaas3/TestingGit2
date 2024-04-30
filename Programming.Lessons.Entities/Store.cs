@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Programming.Lessons.Entities
 {
-    internal class Rating
+    internal class Bookstore
     {
+        public string OnlineStore {  get; set; }
 
     }
 }

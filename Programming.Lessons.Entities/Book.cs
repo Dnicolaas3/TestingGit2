@@ -16,5 +16,7 @@ namespace Programming.Lessons.Entities
         public bool AudioBookAvailable { get; set; }
         public BookInfo BookInfo { get; set; }
 
+        public AuthorBio AuthorBio { get; set; }
+
         }
     }
